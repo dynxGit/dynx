@@ -6,7 +6,6 @@ namespace crud\views;
  * manage
  * 
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
- * I18n : http://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Hungarian.json
  * @copyright Copyright &copy; Szincsák András
  * @author Szincsák András <andras@szincsak.hu>
  * @version 1.0
