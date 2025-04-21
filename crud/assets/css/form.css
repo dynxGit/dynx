@@ -1,0 +1,9 @@
+.submitRight{
+    position:relative
+}
+.submitRight .float-end{
+    position:absolute;
+    float:none!Important;
+    top: 0;
+    right :0;
+}
