@@ -1,22 +1,19 @@
 {
-	"name": "dynx/dynx",
-	"description": "User manager for Yii2 with extended RBAC",
-    "keywords": [],
-	"type": "project",
-    "license": "BSD-3-Clause",
-    "minimum-stability": "stable",
-	"authors": [
+"name": "dynx/dynx",
+"description": "User manager for Yii2 with extended RBAC",
+"keywords": [],
+"type": "project",
+"license": "BSD-3-Clause",
+"authors": [
         {
             "name": "András Szincsák",
             "email": "git@dynx.hu"
         }
     ],
-
-	"require":{
-		"php": ">=7.0.0"
+"require":{
+	"php": ">=7.0.0"
      },
-    "autoload": {
+"autoload": {
         "psr-4": { "dynx\\dynx\\": "*" }
     }
-
 }
