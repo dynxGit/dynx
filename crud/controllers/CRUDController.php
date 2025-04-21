@@ -16,8 +16,6 @@ use crud\controllers\behaviors\DataTableBehavior;
 use crud\controllers\behaviors\RenderTemplateBehavior;
 
 
-use function PHPUnit\Framework\fileExists;
-
 class CRUDController extends Controller
 {
     public $pageTitle = "CRUD";
