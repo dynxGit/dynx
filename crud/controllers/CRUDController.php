@@ -10,6 +10,7 @@ namespace crud\controllers;
  */
 
 use Yii;
+use yii\web\Controller;
 use yii\web\HttpException;
 use crud\controllers\behaviors\DataTableBehavior;
 use crud\controllers\behaviors\RenderTemplateBehavior;
