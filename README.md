@@ -19,4 +19,14 @@ In config/web.php
         'class' => 'dynx\Module',
      ],
 ],
+'components' =>[
+...
+ 'user' => [
+    'class' => 'dynx\components\DyWebUser',
+    'enableAutoLogin' => true,
+ ],
+ 'authManager' => [
+     'class' => 'yii\rbac\DbManager',
+ ],
+]
 ```
