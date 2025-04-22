@@ -3,16 +3,20 @@
 ## Configuration
 In config/web.php
 ```
- "aliases" => [
+'bootstrap' => [
+ ...
+ 'dynx'
+],
+'aliases' => [
    ...
-   "@dynx"   => "@vendor/dynx/dynx",
+   '@dynx'   => '@vendor/dynx/dynx',
   
  ]
 ...
-"modules" => [
+'modules' => [
   ...
-     "dynx" => [
-        "class" => "dynx\Module",
+     'dynx' => [
+        'class' => 'dynx\Module',
      ],
 ],
 ```
